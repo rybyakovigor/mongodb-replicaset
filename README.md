@@ -17,3 +17,6 @@ chmod +x dbstart.sh
 ```bash
 ./dbstart.sh
 ```
+Строка для подключения к БД:
+
+`mongodb://<host>:27021,<host>:27022,<host>:27023`
