@@ -19,4 +19,4 @@ chmod +x dbstart.sh
 ```
 Строка для подключения к БД:
 
-`mongodb://<host>:27021,<host>:27022,<host>:27023`
+`mongodb://192.168.1.112:27021/database-name?authSource=admin&replicaSet=dbrs&readPreference=primary&directConnection=true&ssl=false`
